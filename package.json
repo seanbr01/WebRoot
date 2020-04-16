@@ -1,0 +1,26 @@
+{
+  "name": "webroot",
+  "version": "1.0.0",
+  "description": "ISIT 322 Class Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanbr01/WebRoot.git"
+  },
+  "author": "Sean Bruce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanbr01/WebRoot/issues"
+  },
+  "homepage": "https://github.com/seanbr01/WebRoot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "node": "^13.13.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

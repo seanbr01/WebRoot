@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    color: darkorange;
+    color: whitesmoke;
 }
 
 #just-me {
@@ -26,11 +26,17 @@ li:hover {
     background-color: #111111;
   }
 
-.item1 { grid-area: header; }
+.item1 { 
+  grid-area: header;
+  background-image: url('../images/header-background-1.jpg');
+}
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+.item5 { 
+  grid-area: footer;
+  background-image: url('../images/footer-background-011.webp');
+}
 
 .grid-container {
     display: grid;
@@ -39,12 +45,14 @@ li:hover {
       'menu main main main right right'
       'menu footer footer footer footer footer';
     grid-gap: 10px;
-    background-color: #2196F3;
+    /* background-color: #2196F3; */
+    background-color: darkgray;
     padding: 10px;
   }
   
   .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: gray;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;

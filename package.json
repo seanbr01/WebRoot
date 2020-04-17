@@ -4,7 +4,9 @@
   "description": "ISIT 322 Class Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html",
+    "devstart" : "nodemon index.html"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-generator": "^4.16.1",
-    "node": "^13.13.0"
+    "node": "^13.13.0",
+    "nodemon": "^2.0.3"
   },
   "devDependencies": {},
   "keywords": []

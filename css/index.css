@@ -13,6 +13,7 @@ body {
 .header {
   padding: 10px;
   background-image: url('../images/header-background-1.jpg');
+  text-align: center;
 }
 
 .footer {
